@@ -100,8 +100,9 @@ public class HashMap<K, V> {
 		} else {
 			myMapNode.setValue(value);
 		}
+		
 	}
-
+	
 	@Override
 	public String toString() {
 		return "HashMap{" + arrayList +'}';
